@@ -14,12 +14,12 @@ export interface ProjectCardProps {
 
 const getProjectBackground = (title: string) => {
     const lower = title.toLowerCase();
-    if (lower.includes('exam')) return '/src/assets/onlineExams.png';
-    if (lower.includes('submission')) return '/src/assets/submissionplatform2.png';
-    if (lower.includes('booking')) return '/src/assets/booking2.png';
-    if (lower.includes('chat')) return '/src/assets/chat2.png';
-    if (lower.includes('scheduler') || lower.includes('mqtt')) return '/src/assets/mqtt2.png';
-    if (lower.includes('dapp') || lower.includes('prototype')) return '/src/assets/dapp.jpeg';
+    if (lower.includes('exam')) return '/assets/onlineExams.png';
+    if (lower.includes('submission')) return '/assets/submissionplatform2.png';
+    if (lower.includes('booking')) return '/assets/booking2.png';
+    if (lower.includes('chat')) return '/assets/chat2.png';
+    if (lower.includes('scheduler') || lower.includes('mqtt')) return '/assets/mqtt2.png';
+    if (lower.includes('dapp') || lower.includes('prototype')) return '/assets/dapp.jpeg';
     return undefined;
 };
 

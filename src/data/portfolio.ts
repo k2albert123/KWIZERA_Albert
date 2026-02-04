@@ -53,7 +53,7 @@ export const portfolioData = {
       level: 'Advanced', 
       description: 'Robust server-side engineering with Spring Boot, Jakarta EE, and Node.js. Experienced in WebSockets, MQTT brokers, and Python automation.',
       icons: [
-        '/src/assets/java.png', 
+        '/assets/java.png', 
         'https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg', 
         'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg',
         'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg',
@@ -70,7 +70,7 @@ export const portfolioData = {
       level: 'Advanced', 
       description: 'Sleek, responsive UIs using React, Vite, and Tailwind CSS. Expertise in TypeScript, React Router, Context API, and legacy systems like Thymeleaf/JSP.',
       icons: [
-        '/src/assets/react.jpeg', 
+        '/assets/react.jpeg', 
         'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg', 
         'https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original-wordmark.svg',
         'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg',
@@ -112,7 +112,7 @@ export const portfolioData = {
       level: 'Intermediate', 
       description: 'Developing smart contracts with Solidity. Familiar with Hardhat, Truffle, Ganache, and MetaMask integration.',
       icons: [
-        '/src/assets/solidity.png', 
+        '/assets/solidity.png', 
         'https://download.logo.wine/logo/Solidity/Solidity-Logo.wine.png',
         'https://www.svgviewer.dev/static-svgs/482369/eth.svg'
       ],
