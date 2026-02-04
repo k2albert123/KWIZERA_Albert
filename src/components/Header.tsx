@@ -35,7 +35,7 @@ const Header: React.FC = () => {
             )}>
                 <Link to="/" className="group flex items-center gap-2">
                     <div className="w-8 h-8 rounded-full flex items-center justify-center font-bold text-primary-foreground text-sm">
-                        <img src="src/assets/logo.png" alt="Logo" />
+                        <img src="assets/logo.png" alt="Logo" />
                     </div>
                     <span className="hidden sm:inline-block font-headings font-bold text-lg tracking-tight">
                         Kwizera Albert
