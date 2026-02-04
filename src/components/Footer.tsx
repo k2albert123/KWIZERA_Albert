@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                     <div className="flex flex-col items-center md:items-start text-center md:text-left">
                         <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-primary-foreground text-sm">
-                            <img src="src/assets/logo.png" alt="Logo" />
+                            <img src="/assets/logo.png" alt="Logo" />
                         </div>
                         <p className="text-muted-foreground max-w-xs text-sm">
                             Building digital experiences with passion and precision. Let's create something extraordinary.
