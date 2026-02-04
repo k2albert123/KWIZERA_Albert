@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.slide-in {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+.hover\:scale-110:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.hover\:bg-gray-700:hover {
+  background-color: rgba(55, 65, 81, 1);
+  transition: background-color 0.3s ease;
+}
+
+.button {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  background-color: rgba(75, 85, 99, 1);
+}
