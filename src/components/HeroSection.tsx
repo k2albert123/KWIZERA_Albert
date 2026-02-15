@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+import { portfolioData } from '../data/portfolio';
+
 export const HeroSection = () => {
   return (
     <section className="flex flex-col items-center justify-center text-center min-h-[60vh] space-y-8">
@@ -9,11 +11,18 @@ export const HeroSection = () => {
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="relative"
+        className="relative group"
       >
-        <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-primary to-accent opacity-20 blur-2xl" />
-        <div className="relative px-4 py-1.5 rounded-full border border-white/10 bg-black/40 backdrop-blur-md text-xs font-bold uppercase tracking-widest text-primary">
-          Available for freelance work
+        <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-primary to-accent opacity-20 blur-2xl group-hover:opacity-40 transition-opacity duration-500" />
+        <div className="relative p-1 rounded-full border border-white/10 bg-black/40 backdrop-blur-md overflow-hidden">
+          <img 
+            src={portfolioData.profileImage} 
+            alt="Profile" 
+            className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover grayscale hover:grayscale-0 transition-all duration-700 ease-in-out transform hover:scale-105"
+          />
+        </div>
+        <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-4 py-1.5 rounded-full border border-white/10 bg-black/80 backdrop-blur-md text-[10px] font-bold uppercase tracking-widest text-primary whitespace-nowrap">
+          Available for freelance
         </div>
       </motion.div>
 
