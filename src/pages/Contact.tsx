@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import GridMotion from '../components/ui/GridMotion';
 import ContactForm from '../components/ContactForm';
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Facebook, Github, Instagram, Mail, MapPin, Phone } from 'lucide-react';
 
 const Contact: React.FC = () => {
         const gridItems =["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUMHEQxsDgUTj320ea5yetMr2Nwzqjx_bKqQ&s",
@@ -85,6 +85,33 @@ const Contact: React.FC = () => {
                                 <div>
                                     <p className="text-sm text-muted-foreground">Location</p>
                                     <p className="font-medium text-lg">Kigali, Rwanda</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center gap-4">
+                                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                                    <Instagram className="w-6 h-6" />
+                                </div>
+                                <div>
+                                    <p className="text-sm text-muted-foreground">Instagram</p>
+                                    <p className="font-medium text-lg">@albert_r.z</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center gap-4">
+                                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                                    <Facebook className="w-6 h-6" />
+                                </div>
+                                <div>
+                                    <p className="text-sm text-muted-foreground">Facebook</p>
+                                    <p className="font-medium text-lg">@Maed Beammer</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center gap-4">
+                                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                                    <Github className="w-6 h-6" />
+                                </div>
+                                <div>
+                                    <p className="text-sm text-muted-foreground">GitHub</p>
+                                    <p className="font-medium text-lg">@k2albert123</p>
                                 </div>
                             </div>
                         </div>
