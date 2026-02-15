@@ -47,6 +47,7 @@ export const projects = [
 ];
 
 export const portfolioData = {
+  profileImage: '/assets/profile.jpeg',
   skills: [
     { 
       name: 'Backend Ecosystem', 
